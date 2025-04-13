@@ -28,7 +28,10 @@ const About = () => {
     <div id='about' className='min-h-screen w-screen'>
         <div className=' relative mb-8 mt-36 flex flex-col items-center gap-5'>
             <h2 className=' font-general text-sm uppercase md:text-[10px]'>Welcome to Gamer's Arc</h2>
-            <AnimatedTitle/>
+            <AnimatedTitle
+          title="Disc<b>o</b>ver the world's <br /> largest Virtual <b>a</b>dventure"
+          containerClass="mt-5 !text-black text-center"
+        />
             <div className=' about-subtext font-circular-web'>
             <p>The Achievements will show potential</p>
             <p>Achievements reflect who you are and what are your capabilities.</p>
